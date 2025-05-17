@@ -5,7 +5,10 @@
     <classes>
       <class name="Test.AddCampaignTest">
         <methods>
+          <include name="tearDownExtent"/>
+          <include name="setUpExtent"/>
           <include name="FillCampDetails"/>
+          <include name="tearDownReport"/>
           <include name="FailedTestCase"/>
         </methods>
       </class> <!-- Test.AddCampaignTest -->

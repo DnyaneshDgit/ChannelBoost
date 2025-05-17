@@ -16,13 +16,14 @@ public class LoginTest extends BaseClass {
 	public void loginChannelBoost() {
 		Initialization();
 		lp = new LoginPage();
+		test = extent.createTest("Login Test");
 	}
 
 	@Test
 	public void login() throws InterruptedException, IOException {
 		lp.loginToTheApplication();
+		test.info("Login successful with valid credentials.");
 
 	}
-	
-	
+
 }

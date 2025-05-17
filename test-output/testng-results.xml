@@ -2,24 +2,39 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-17T22:07:46 IST" name="Default suite" finished-at="2025-05-17T22:08:19 IST" duration-ms="33752">
+  <suite started-at="2025-05-18T00:25:26 IST" name="Default suite" finished-at="2025-05-18T00:26:04 IST" duration-ms="38426">
     <groups>
     </groups>
-    <test started-at="2025-05-17T22:07:46 IST" name="Default test" finished-at="2025-05-17T22:08:19 IST" duration-ms="33752">
+    <test started-at="2025-05-18T00:25:26 IST" name="Default test" finished-at="2025-05-18T00:26:04 IST" duration-ms="38426">
       <class name="Test.AddCampaignTest">
-        <test-method is-config="true" signature="FillCampDetails()[pri:0, instance:Test.AddCampaignTest@74ea2410]" started-at="2025-05-17T22:07:46 IST" name="FillCampDetails" finished-at="2025-05-17T22:08:00 IST" duration-ms="13857" status="PASS">
+        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:25:25 IST" name="setUpExtent" finished-at="2025-05-18T00:25:26 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtent -->
+        <test-method is-config="true" signature="FillCampDetails()[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:25:26 IST" name="FillCampDetails" finished-at="2025-05-18T00:25:42 IST" duration-ms="16417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCampDetails -->
-        <test-method signature="FillCampDet()[pri:1, instance:Test.AddCampaignTest@74ea2410]" started-at="2025-05-17T22:08:00 IST" name="FillCampDet" finished-at="2025-05-17T22:08:06 IST" duration-ms="6192" status="PASS">
+        <test-method signature="FillCampDet()[pri:1, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:25:42 IST" name="FillCampDet" finished-at="2025-05-18T00:25:48 IST" duration-ms="6091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCampDet -->
-        <test-method is-config="true" signature="FillCampDetails()[pri:0, instance:Test.AddCampaignTest@74ea2410]" started-at="2025-05-17T22:08:06 IST" name="FillCampDetails" finished-at="2025-05-17T22:08:18 IST" duration-ms="12127" status="PASS">
+        <test-method is-config="true" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:25:48 IST" name="tearDownReport" finished-at="2025-05-18T00:25:48 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FillCampDet status=SUCCESS method=AddCampaignTest.FillCampDet()[pri:1, instance:Test.AddCampaignTest@cc43f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+        <test-method is-config="true" signature="FillCampDetails()[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:25:48 IST" name="FillCampDetails" finished-at="2025-05-18T00:26:01 IST" duration-ms="13055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCampDetails -->
-        <test-method signature="FailedTestCase()[pri:2, instance:Test.AddCampaignTest@74ea2410]" started-at="2025-05-17T22:08:18 IST" name="FailedTestCase" finished-at="2025-05-17T22:08:19 IST" duration-ms="1531" status="FAIL">
+        <test-method signature="FailedTestCase()[pri:2, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:26:01 IST" name="FailedTestCase" finished-at="2025-05-18T00:26:04 IST" duration-ms="2449" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Eligible Partners] but found [Campaign Overview]]]>
@@ -33,7 +48,7 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at Pages.AddCampaign.failedTest(AddCampaign.java:87)
-at Test.AddCampaignTest.FailedTestCase(AddCampaignTest.java:36)
+at Test.AddCampaignTest.FailedTestCase(AddCampaignTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,6 +83,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailedTestCase -->
+        <test-method is-config="true" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:26:04 IST" name="tearDownReport" finished-at="2025-05-18T00:26:04 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FailedTestCase status=FAILURE method=AddCampaignTest.FailedTestCase()[pri:2, instance:Test.AddCampaignTest@cc43f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:Test.AddCampaignTest@cc43f62]" started-at="2025-05-18T00:26:04 IST" name="tearDownExtent" finished-at="2025-05-18T00:26:04 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
       </class> <!-- Test.AddCampaignTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
